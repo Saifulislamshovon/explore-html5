@@ -1,0 +1,17 @@
+nav>ol {
+
+    display: flex;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.audio {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+}
