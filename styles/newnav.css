@@ -1,0 +1,44 @@
+nav {
+    display: flex;
+    background-color: cadetblue;
+
+}
+
+.dropdown-container a {
+    text-decoration: none;
+    margin-right: 20px;
+    border: 20px;
+    color: white;
+
+}
+
+.dropdown-container {
+    position: relative;
+
+}
+
+.dropdown-content {
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    margin-left: 175px;
+
+}
+
+.dropdown-content:hover {
+    color: aqua;
+}
+
+.dropdown-content:hover {
+    background-color: cadetblue;
+    padding-right: 40px;
+
+
+}
+
+.dropdown-container:hover .dropdown-content {
+    display: block;
+    border: 5px;
+    border-color: cornflowerblue;
+
+}
